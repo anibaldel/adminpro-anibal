@@ -30,7 +30,7 @@ export class AccoutSettingsComponent implements OnInit {
   colocarCheck() {
     const selectores: any = document.getElementsByClassName('selector');
 
-    let tema= this._ajustes.ajustes.tema;
+    const tema = this._ajustes.ajustes.tema;
 
     for (const ref of selectores) {
       if (ref.getAttribute('data-theme') === tema ) {
